@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG" duration-ms="14885" started-at="2018-11-23T07:00:57Z" finished-at="2018-11-23T07:01:12Z">
+    <groups>
+    </groups>
+    <test name="TestNG Features" duration-ms="14885" started-at="2018-11-23T07:00:57Z" finished-at="2018-11-23T07:01:12Z">
+      <class name="TestNG_Practice.Parameterstestng">
+        <test-method status="PASS" signature="yahoologintestmethod(java.lang.String, java.lang.String)[pri:0, instance:TestNG_Practice.Parameterstestng@29774679]" name="yahoologintestmethod" duration-ms="14856" started-at="2018-11-23T07:00:57Z" finished-at="2018-11-23T07:01:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[krish_saha2006@yahoo.co.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahoologintestmethod -->
+      </class> <!-- TestNG_Practice.Parameterstestng -->
+    </test> <!-- TestNG Features -->
+  </suite> <!-- TestNG -->
+</testng-results>

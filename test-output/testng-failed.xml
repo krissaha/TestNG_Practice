@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Retry]">
+  <listeners>
+    <listener class-name="testng_Demo.Retry"/>
+  </listeners>
+  <test thread-count="5" name="retry test(failed)">
+    <classes>
+      <class name="testng_Demo.Retrytest">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- testng_Demo.Retrytest -->
+    </classes>
+  </test> <!-- retry test(failed) -->
+</suite> <!-- Failed suite [Retry] -->
