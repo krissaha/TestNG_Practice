@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Retry]">
-  <listeners>
-    <listener class-name="testng_Demo.Retry"/>
-  </listeners>
-  <test thread-count="5" name="retry test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng_Demo.Retrytest">
+      <class name="testng_Demo.Hardandsoftassertion">
         <methods>
-          <include name="test1"/>
+          <include name="testHSassert"/>
         </methods>
-      </class> <!-- testng_Demo.Retrytest -->
+      </class> <!-- testng_Demo.Hardandsoftassertion -->
     </classes>
-  </test> <!-- retry test(failed) -->
-</suite> <!-- Failed suite [Retry] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
